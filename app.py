@@ -7,7 +7,7 @@ app = Flask(__name__)
 conn = mysql.connector.connect(
     host='card.corebanking.com',
     user='root',
-    password='Areuok222@',
+    password='Areuok222',
     database='test'
 )
 cursor = conn.cursor()
