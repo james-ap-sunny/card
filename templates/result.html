@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Information Result</title>
+</head>
+<body>
+    {% if error_message %}
+        <h1>{{ error_message }}</h1>
+    {% else %}
+        <h1>Card Information</h1>
+        <p>Account Date: {{ account_date }}</p>
+        <p>Balance: {{ balance }}</p>
+    {% endif %}
+</body>
+</html>
